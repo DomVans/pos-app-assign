@@ -1,6 +1,6 @@
  Point of Sale (POS) System
 
-A simple yet functional Point of Sale (POS) system built using Laravel and Filament, developed by Dominic Vansangzuala as part of the campus recruitment program for Lailen Pvt. Ltd. This project was completed within one week.
+A simple yet functional Point of Sale (POS) system built using Laravel and Filament, developed by Dominic Vansangzuala as part of the recruitment program for Lailen Pvt. Ltd. This project was completed within one week.
 🛠️ Technologies Used
 
     Laravel – PHP web application framework
