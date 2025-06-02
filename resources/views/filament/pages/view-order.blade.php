@@ -25,9 +25,6 @@
                                         {{ $order->created_at->format('M d, Y h:i A') }}
                                     </p>
                                 </div>
-                                <div class="text-lg font-bold text-primary-600 dark:text-primary-400">
-                                    ₦{{ number_format($order->total, 2) }}
-                                </div>
                             </div>
 
                             <!-- Order Items Table -->
@@ -62,13 +59,13 @@
                                                     {{ $item->quantity }}
                                                 </td>
                                                 <td class="px-4 py-3 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                                                    ₦{{ number_format($item->price, 2) }}
+                                                    Rs {{ number_format($item->price, 2) }}
                                                 </td>
                                                 <td class="px-4 py-3 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">
                                                     {{ $item->discount->name ?? '—' }}
                                                 </td>
                                                 <td class="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary-600 dark:text-primary-400">
-                                                    ₦{{ number_format($item->subtotal, 2) }}
+                                                    Rs {{ number_format($item->subtotal, 2) }}
                                                 </td>
                                             </tr>
                                         @empty
