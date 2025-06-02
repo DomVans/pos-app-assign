@@ -41,6 +41,10 @@ cd pos-app-assign
 
 composer install
 
+npm install
+
+npm run dev
+
 ⚙️ Configure Environment
 
 cp .env.example .env
